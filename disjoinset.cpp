@@ -33,10 +33,11 @@ void set_union(int x,int y)
 void makeset(int x)
 {
    Node* temp=Node(x);
-   ptr* counter=new ptr;
-   headvec.push_back(temp);
+   ptr* counter;
    counter->head=temp;
    counter->tail=counter->head;
+   countervec.push_back(counter);
+   rep_map
 }
 
 node* find(int x)
